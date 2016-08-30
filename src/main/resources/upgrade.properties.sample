@@ -1,0 +1,30 @@
+jboss.home=/home/alexander/workspaces/vendor/wf10
+jboss.host=localhost
+jboss.app.url=/app
+jboss.app.port=8080
+jboss.admin.port=9990
+jboss.user=admin
+jboss.password=admin1
+jboss.cli.controller=localhost
+jboss.cli.port=9990
+
+server.properties=/home/alexander/workspaces/vendor/wf10/standalone/configuration/server.properties
+
+postgres.home=/opt/PostgreSQL/9.5
+db.host=localhost
+db.port=5432
+db.name=app
+db.user=postgres
+db.password=postgres
+
+ear.folder=/home/alexander/workspaces/app/deployment-tool/src/main/resources/ear
+ear.current=0.0.1
+ear.sequence=0.0.2, 0.0.3, 0.0.4, 0.0.5
+
+initial.data.folder=/home/alexander/workspaces/init-data
+
+backup.folder=/home/alexander/workspaces/app/deployment-tool/src/main/resources/backup
+backup.before=0.0.3, 0.0.5
+
+#current/last_successful
+restore.version.on.failure=last_successful
